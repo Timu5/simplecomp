@@ -1,0 +1,18 @@
+
+// zmienna int
+int a = 10;
+// zmienna double
+double b = 2.0;
+
+// można wypisać tylko zmienna po jej nazwie w tym biednym języku
+print a;
+print b;
+
+// podczas deklaracji nowej zmiennej można użyć dodawania lub odejmowania
+int a2 = a + a;
+// jeśli jeden typ to int a drugi to double to będzie niejawne rzutowanie
+// 'a' jest intem a 'b' jest doublem wiec 'c' tez będzie doublem
+double c = a + b;
+
+print a2;
+print c;
