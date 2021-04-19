@@ -1,17 +1,17 @@
 
-// zmienna int
+// integer variable
 int a = 10;
-// zmienna double
+// double variable
 double b = 2.0;
 
-// można wypisać tylko zmienna po jej nazwie w tym biednym języku
+// you can only print by variable name
 print a;
 print b;
 
-// podczas deklaracji nowej zmiennej można użyć dodawania lub odejmowania
+// when declaring new variable you can add or substract value
 int a2 = a + a;
-// jeśli jeden typ to int a drugi to double to będzie niejawne rzutowanie
-// 'a' jest intem a 'b' jest doublem wiec 'c' tez będzie doublem
+
+// if types don't match there will be implicit casting if possible
 double c = a + b;
 
 print a2;
